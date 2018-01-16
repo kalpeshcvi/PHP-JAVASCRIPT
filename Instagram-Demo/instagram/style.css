@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding :0;
+}
+
+a.button {
+  background: url(instagram-login-button.png) no-repeat transparent;
+  background-size: 250px 100px;
+  background-position: center 3px;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  margin: 50px auto;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 252px;
+}
+
+a.button:hover {
+  background-position: center -50px;
+}
+
+h1.homepage-title {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  float: left;
+  box-shadow: 0 0 5px #000;
+}
+
+.header h1.title {
+  width: 50%;
+  float: left;
+  font-family: 'Arial';
+  padding: 0 15px;
+  box-sizing: border-box;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.header span {
+  width: 50%;
+  float: left;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 18px 0;
+}
+
+.header span a {
+  font-family: 'Arial';
+  background-color: #3f729b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+}
+
+.header span a:hover,
+.header span a:focus,
+.header span a:active {
+  opacity: 0.8;
+}
+
+.map {
+  position: absolute;
+  top: 75px;
+  bottom: 0;
+  width: 100%;
+}
